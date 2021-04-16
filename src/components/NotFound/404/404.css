@@ -1,0 +1,25 @@
+.not-found-text{
+    background: linear-gradient(to bottom, #202c6242, #202c62e5), url(../../../assets//harbor1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 10%;
+}
+
+.not-found-big-text{
+    font-size: 200px;
+    color: white;
+    box-shadow: 10px, 3px, 10px, black;
+}
+
+.not-found-small-sub-text{
+    font-size: 50px;
+    color: white;
+}

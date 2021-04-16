@@ -1,0 +1,51 @@
+.right-img-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    background-color: #cfd4e0;
+}
+
+.right-img-content-left{
+    height: 80vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-img-content-text{
+    margin-left: 10%;
+    padding: 50px 0px;
+}
+
+.right-img-content-card{
+    background-color: rgb(255, 134, 134);
+    height: 35vh;
+}
+.right-img-content-card-quote{
+    padding: 30px;
+    font-size: 26px;
+}
+
+.right-img-content-right{
+    background: linear-gradient(to bottom, #202c621c, #202c62a1),url(../../../assets/call.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 80vh;
+}
+
+@media (max-width: 1000px) {
+    .right-img-content-card-quote{
+        font-size: 16px;;
+    }
+}
+
+@media (max-width: 860px){
+    .right-img-content{
+        display : none;
+    }
+}

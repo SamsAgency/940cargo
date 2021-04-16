@@ -1,0 +1,18 @@
+.Ground{
+    width: 88%;
+    margin-left: 12%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.ground-content{
+  width: 90%;
+  margin: auto;
+  padding: 30px 0px;
+}
+
+@media (max-width: 1000px){
+  .Ground {
+    width: 100%;
+    margin-left: 0%;
+  }
+}

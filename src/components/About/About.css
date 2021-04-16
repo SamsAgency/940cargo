@@ -1,0 +1,12 @@
+.about{
+    width: 88%;
+    margin-left: 12%;
+    font-family: 'Roboto', sans-serif;
+  }
+
+@media (max-width: 1000px) {
+  .about {
+    width: 100%;
+    margin-left: 0;
+  }
+}

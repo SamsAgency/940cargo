@@ -1,0 +1,13 @@
+.main_content{
+    width: 88%;
+    margin-left: 12%;
+    z-index: -1;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 1000px){
+  .main_content{
+    width: 100%;
+    margin-left: 0;
+  }
+}

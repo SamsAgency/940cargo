@@ -1,0 +1,222 @@
+.contact-us-form-banner{
+    background: linear-gradient(to bottom, #202c62a4, #202c6231), url(../../../assets/call.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-us-form-banner-h2{
+    color: white;
+    font-size: 50px;
+    white-space: normal;
+    margin-left: 2%;
+}
+
+.contact-us-form-banner-p{
+    color: white;
+    font-size: 25px;
+    white-space: normal;
+    margin-left: 2%;
+}
+
+.the-contact-form{
+    width: 80%;
+    margin: auto;
+    background-color: #f4f6ff;
+    
+}
+.the-contact-form-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-left-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    width: 49.59%
+}
+
+.contact-right-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 49.59%;
+    /* background-color: yellow; */
+}
+.contact-us-label{
+    font-family: Roboto;
+    margin-top: 10px;
+}
+.input-contactus-form{
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.textarea-contactus-form{
+    width: 75%;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-top: 10px;
+    min-height: 28vh;
+}
+.contact-button-area{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form-button{
+    width: 150px;
+    padding: 7px 10px;
+    color: white;
+    background-color: #242e5a;
+    border-width: 1px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content:space-around
+}
+
+.contact-form-button:hover{
+    background-color:red;
+    cursor: pointer;
+}
+
+.contactus-map{
+    width: 100%;
+}
+
+.contact-map-iframe{
+    width: 100%;
+}
+@media screen and (max-width: 900px) {
+    .the-contact-form-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .input-contactus-form{
+        width: 90%;
+    }
+    .textarea-contactus-form{
+        width: 90%;
+    }
+    .contact-left-form{
+        width: 100%
+    }
+    .contact-right-form{
+        width: 100%
+    }
+}
+
+
+
+
+
+
+
+/* 
+.the-contact-us-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 90%;
+    margin: auto;
+}
+
+.the-contact-us-form-elements{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.the-contact-us-form-labels{
+    margin-top: 10px;
+    color: #202c62;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.the-contact-us-form-input{
+    width: 400px;
+    margin-bottom: 24px;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #202c62;
+    box-shadow: 10px, 2px, 10px #ccc;
+}
+
+.contact-us-form-button{
+    width: 150px;
+    background-color: #202c62;
+    color: white;
+    border: none;;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.contact-us-form-button:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+textarea{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    width: 70vw;
+    height: 300px;
+}
+
+textarea:focus{
+    border-color: #202c62 !important;
+    background-color: #202c620e;
+}
+
+@media screen and (max-width: 900px) {
+    .contact-us-form-banner-h2{
+        font-size: 30px;
+        white-space: normal;
+        overflow-wrap: break-word;
+    }
+    .contact-us-form-banner-p{
+        font-size: 18px;
+        white-space: normal;
+        overflow-wrap: break-word;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .the-contact-us-form{
+        margin: auto;
+        width: 80%  !important;
+    }
+    .the-contact-us-form-input {
+        width: 80%;
+    }
+} */

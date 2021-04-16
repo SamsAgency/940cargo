@@ -1,0 +1,34 @@
+.about-banner{
+    height: 55vh;
+    background-image: linear-gradient(to bottom, rgba(2, 12, 70, 0.363), rgba(17, 8, 102, 0.582)),url(../../../assets/about.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-banner-content{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-banner-h2{
+    font-size: 50px;
+}
+
+.about-banner-p{
+    font-size: 25px;
+}
+
+@media (max-width: 720px) {
+    .about-banner {
+        height: 65vh;
+    }
+}

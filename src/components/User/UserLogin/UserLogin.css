@@ -1,0 +1,23 @@
+.user-login-banner{
+    background: linear-gradient(to bottom, #202c62a4, #202c6231), url(../../../assets/call.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 10%;
+}
+
+.user-login-banner-h2{
+    color: white;
+    font-size: 50px;
+}
+
+.user-login-banner-p{
+    color: white;
+    font-size: 25px;
+}

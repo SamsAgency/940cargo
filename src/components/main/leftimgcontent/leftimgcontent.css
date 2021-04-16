@@ -1,0 +1,44 @@
+.leftimgcontent{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.the-left-img{
+    width: 45%;
+    overflow: hidden;
+    transition: transform .5s ease;
+}
+
+
+.content-section-image{
+    width: 100% !important;
+    overflow: hidden;
+}
+
+.the-right-content{
+    width: 55%;
+    padding: 0px 20px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+@media (max-width: 800px){
+    .leftimgcontent{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0%;
+    }
+    .the-left-img{
+        width: 80%;
+        margin-top: 20px;
+        transition: transform .5s ease;
+    }
+    .the-right-content{
+        width: 75%;
+    }
+}

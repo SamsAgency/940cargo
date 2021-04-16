@@ -1,0 +1,29 @@
+.some-quotes{
+    height: 50vh;
+    background-image: linear-gradient(to bottom, rgba(2, 12, 70, 0.363), rgba(17, 8, 102, 0.582)),url(../../../assets/team.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    /* align-self: center; */
+    align-content: center;
+    justify-content: center;
+}
+
+.some-quotes-q{
+    display: flex;
+    align-self: center;
+    font-size: 40px;
+    padding: 5%;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 720px){
+    .some-quotes {
+        height: 70vh;
+    }
+    .some-quotes-q {
+        font-size: 30px;
+    }
+}

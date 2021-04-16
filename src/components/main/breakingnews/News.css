@@ -1,0 +1,123 @@
+.main-news{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    
+}
+
+.main-news-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-news-content-body{
+    width: 100%;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap !important;
+    margin-top: 20px;
+}
+.main-news-content-h4{
+    color: red
+}
+
+.main-news-content-body-left{
+    width: 49%;
+}
+.main-news-content-body-left-img{
+    width: 100%;
+}
+.main-news-content-body-left-date{
+    color: red;
+}
+
+.main-news-content-body-left-h4{
+    color: red;
+}
+.main-news-content-body-left-h2{
+    color: #202c62;
+}
+
+.main-news-content-body-right{
+    width: 49%;
+}
+
+.main-news-content-body-right-single-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.main-news-content-body-right-single-card-img{
+    width: 34%;
+}
+
+.main-news-content-body-right-single-card-content{
+    width: 64%;
+}
+.main-news-content-body-right-single-card-content-h2{
+    color: #021d49;
+}
+.main-news-content-body-right-single-card-content-date{
+    color: red
+}
+.news-section-button{
+    margin-top: 20px;
+    margin-left: 42%;
+    width: 150px;
+    background-color: #021d49;
+    color: white;
+    border: none;;
+    padding: 10px;
+}
+
+@media (max-width: 1000px) {
+    .main-news-content-body{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+    }
+    .main-news-content-body-left{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-news-content-body{
+        width: 100%;
+    }
+    .main-news-content-body-left{
+        width: 90%;
+    }
+    .main-news-content-body-contents{
+        width: 100%;
+    }
+    .main-news-content-body-right{
+        width: 85%;
+    }
+}
+
+@media (max-width: 670px){
+    .main-news-content-body-right-single-card{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .main-news-content-body-right-single-card-img{
+        width: 85%;
+        margin-top: 5px;
+    }
+    .main-news-button-section{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .news-section-button{
+        margin: auto;
+    }
+}

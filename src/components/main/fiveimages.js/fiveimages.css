@@ -1,0 +1,114 @@
+.five-images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    /* height: 80vh; */
+}
+
+.five-images-left {
+    width: 49.7%;
+}
+.five-images-left-img{
+    width: 100%;
+    height: 100%;
+}
+
+.five-images-right{
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.five-image-fragmentation{
+    display: flex;
+    justify-content: space-around;
+}
+.five-images-right-img{
+    width: 51%;
+    height: 40vh;
+}
+
+@media (max-width: 1000px){
+    .five-images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        
+    }
+    .five-images-left {
+        display : flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .five-images-right {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+    .five-image-fragmentation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .five-images-right-img{
+        margin-top: 10px;
+        background: linear-gradient(to bottom, #021d4949, #021d49e5);
+    }
+    .five-images-left{
+        width: 80%;
+        margin: auto
+    }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1001px) {
+    .five-images{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        
+    }
+    .five-images-left {
+        display : flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .five-images-right {
+        display: flex;
+        /* flex-direction: column; */
+        margin-bottom: 5px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .five-image-fragmentation{
+        display: flex;
+        /* flex-direction: column; */
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .five-images-right-img{
+        margin-top: 10px;
+        background: linear-gradient(to bottom, #021d4949, #021d49e5);
+    }
+    .five-images-left{
+        width: 80%;
+        margin: auto
+    }
+}
+@media (max-width: 750px){
+    .five-images-right{
+        width: 100%;
+    }
+}

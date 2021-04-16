@@ -1,0 +1,22 @@
+.ground-banner{
+    background: linear-gradient(to bottom, #202c621c, #202c62),url(../../../assets/logistics\ \(6\).jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 50vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ground-banner-header{
+    font-size:40px;
+    color: white;
+}
+
+.ground-banner-p{
+    font-size: 25px;
+    color: white;
+}
